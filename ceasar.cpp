@@ -1,10 +1,17 @@
 #include <iostream>
 using namespace std;
 int main()
-{   char a[5]={'H','E','L','L','O'};
+{   char plaintext[5]={'H','E','L','L','O'};
+    cout<<"PLAINTEXT : ";
+    for (int j=0;j<5;j++)
+    {
+    cout<<plaintext[j] ;
+    }
+    cout<<"\n";
+    cout<<"CYPHERTEXT : ";
     for(int i=0;i<5;i++)
     {
-    char l=a[i];
+    char l=plaintext[i];
     int k;
     cin >> k;
     char c='A';
@@ -20,4 +27,3 @@ int main()
         cout<<char(g);
     }   
 }}
-
