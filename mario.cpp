@@ -20,7 +20,7 @@ int main()
     }
     else
     {
-        cout<<"asdasd";
+        cout<<"INPUT VALUE BETWEEN 1 to 23";
     }
 
 }
